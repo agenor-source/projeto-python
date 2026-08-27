@@ -105,10 +105,10 @@ def produto_mais_caro(produtos):
 
 # FUNÇÃO PEGAR O PRODUTO MAIS BARATO
 def produto_mais_barato(produtos):
-    mais_barato = produtos[]
+    mais_barato = produtos[0]
 
     for produto in produtos:
-        if produtos["preço"] < mais_barato["preço"]:
+        if produtos["preco"] < mais_barato["preco"]:
             mais_barato = produto
 
     print("\n=== PRODUTO MAIS BARATO É ====\n")
@@ -122,8 +122,8 @@ def filtrar_categoria(produtos):
     # mostrar todas as categorias
     print('\n === Todas as categorias ==== \n')
     for produto in produtos:
-        print(f'Categoria: {produto{'categoria'}}')
-        
+        print(f'Categoria: {produto['categoria']}')
+
     categoria = input("Digite a categoria: ")
 
     encontrados = 0
@@ -132,9 +132,34 @@ def filtrar_categoria(produtos):
 
     for produto in produtos:
         if produto['categoria'].lower() == categoria.lower():
-            print
+            print(
                 f'{produto['produto']} - '
                 f'{produto['preço']:.2f}'
+            )
+
+            encontrados =encontrados + 1
+
+            if encontrados ==0:
+                print('Nenhum produto encontrado')
+
+# filtrar por fornecedor
+def filtrar_fornecedor(produtos):
+    # mostrar todas as categorias
+    print('\n === Todas os fornecedores ==== \n')
+    for produto in produtos:
+        print(f'Fornecedor: {produto['fornecedor']}')
+
+    fornecedor = input("Digite o fornecedor: ")
+
+    encontrados = 0
+
+    print(f'\n ==== FORNECEDOR: {fornecedor} ===')
+
+    for produto in produtos:
+        if produto['fornecedor'].lower() == fornecedor.lower():
+            print(
+                f'{produto['produto']} - '
+                f'{produto['preco']:.2f}'
             )
 
             encontrados =encontrados + 1
@@ -158,6 +183,12 @@ while True:
     elif opcao == 4:
         produtos_abaixo(produtos)
     elif opcao == 5:
-
-
+        produto_mais_barato(produtos)
+    elif opcao ==6:
+        produto_mais_caro(produtos)
+    elif opcao ==7:
+        filtrar_categoria(produtos)
+    elif opcao == 8:
+        filtrar_fornecedor(produtos)
+    elif opcao == 9:
         break
