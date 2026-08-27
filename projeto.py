@@ -103,6 +103,45 @@ def produto_mais_caro(produtos):
     print(f'Preco: {mais_caro['preco']:.2f}')
     print(f'Categoria: {mais_caro['categoria']:.2f}')
 
+# FUNÇÃO PEGAR O PRODUTO MAIS BARATO
+def produto_mais_barato(produtos):
+    mais_barato = produtos[]
+
+    for produto in produtos:
+        if produtos["preço"] < mais_barato["preço"]:
+            mais_barato = produto
+
+    print("\n=== PRODUTO MAIS BARATO É ====\n")
+
+    print(f"Produto: {mais_barato["produto"]}")
+    print(f'Preço: {mais_barato['preço']:.2f}')
+    print(f'Categoria: {mais_barato['categoria']}')
+
+# filtrar por categoria
+def filtrar_categoria(produtos):
+    # mostrar todas as categorias
+    print('\n === Todas as categorias ==== \n')
+    for produto in produtos:
+        print(f'Categoria: {produto{'categoria'}}')
+        
+    categoria = input("Digite a categoria: ")
+
+    encontrados = 0
+
+    print(f'\n ==== CATEGORIA: {categoria} ===')
+
+    for produto in produtos:
+        if produto['categoria'].lower() == categoria.lower():
+            print
+                f'{produto['produto']} - '
+                f'{produto['preço']:.2f}'
+            )
+
+            encontrados =encontrados + 1
+
+            if encontrados ==0:
+                print('Nenhum produto encontrado')
+
 
 produtos = carregar_produtos()
 
@@ -119,4 +158,6 @@ while True:
     elif opcao == 4:
         produtos_abaixo(produtos)
     elif opcao == 5:
+
+
         break
