@@ -1,0 +1,49 @@
+﻿produto,categoria,preco,quantidade,fornecedor
+Teclado Mecânico,Informática,289.9,18,TechStore
+Mouse Sem Fio,Informática,89.9,35,TechStore
+Monitor 24 Polegadas,Informática,899.9,7,ScreenTech
+Monitor 27 Polegadas,Informática,1299.9,4,ScreenTech
+Notebook,Informática,3499.9,6,MegaComputers
+Webcam Full HD,Informática,199.9,12,TechStore
+Headset Gamer,Áudio,249.9,22,SoundMax
+Fone Bluetooth,Áudio,159.9,28,SoundMax
+Caixa de Som,Áudio,329.9,9,SoundMax
+Microfone USB,Áudio,449.9,5,SoundMax
+Cadeira Gamer,Móveis,1199.9,5,OfficeMax
+Cadeira Escritório,Móveis,749.9,8,OfficeMax
+Mesa Escritório,Móveis,999.9,3,OfficeMax
+Estante,Móveis,649.9,11,CasaMóveis
+Armário,Móveis,1399.9,2,CasaMóveis
+Luminária de Mesa,Casa,129.9,25,CasaMóveis
+Ventilador,Casa,249.9,14,CasaMóveis
+Liquidificador,Eletrodomésticos,199.9,16,EletroCenter
+Air Fryer,Eletrodomésticos,399.9,10,EletroCenter
+Cafeteira,Eletrodomésticos,299.9,6,EletroCenter
+Sanduicheira,Eletrodomésticos,119.9,19,EletroCenter
+Aspirador de Pó,Eletrodomésticos,549.9,4,EletroCenter
+Liquidificador Industrial,Eletrodomésticos,899.9,2,EletroCenter
+Mochila,Acessórios,179.9,20,BagStore
+Mochila Notebook,Acessórios,229.9,13,BagStore
+Carteira,Acessórios,79.9,31,BagStore
+Relógio Digital,Acessórios,149.9,17,TimeStore
+Smartwatch,Acessórios,499.9,9,TimeStore
+Cabo USB-C,Eletrônicos,39.9,50,EletronTech
+Carregador Turbo,Eletrônicos,89.9,42,EletronTech
+Power Bank,Eletrônicos,159.9,15,EletronTech
+Hub USB,Eletrônicos,119.9,18,EletronTech
+HD Externo 1TB,Eletrônicos,429.9,6,DataTech
+SSD 480GB,Eletrônicos,299.9,10,DataTech
+SSD 1TB,Eletrônicos,599.9,5,DataTech
+Pen Drive 64GB,Eletrônicos,49.9,45,DataTech
+Câmera Digital,Fotografia,1899.9,3,FotoCenter
+Tripé,Fotografia,199.9,12,FotoCenter
+Cartão SD 128GB,Fotografia,99.9,27,FotoCenter
+Lente 50mm,Fotografia,899.9,2,FotoCenter
+Livro Python Básico,Livros,89.9,24,BookStore
+Livro Lógica de Programação,Livros,79.9,18,BookStore
+Livro Banco de Dados,Livros,109.9,11,BookStore
+Livro Desenvolvimento Web,Livros,129.9,7,BookStore
+Caderno,Papelaria,24.9,60,PapelMais
+Caneta,Papelaria,4.9,150,PapelMais
+Mochila Escolar,Papelaria,139.9,16,PapelMais
+Calculadora,Papelaria,39.9,21,PapelMais
